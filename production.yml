@@ -20,7 +20,7 @@ services:
       - ./.envs/.production/.postgres
     command: /start
     ports:
-      - "8000:8000"
+      - "8001:8000"
 
   postgres:
     build:
