@@ -32,7 +32,7 @@ http:
     django:
       loadBalancer:
         servers:
-          - url: http://0.0.0.0:8000
+          - url: http://django:8000
 
     flower:
       loadBalancer:
