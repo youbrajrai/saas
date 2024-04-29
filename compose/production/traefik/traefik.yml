@@ -10,7 +10,7 @@ entryPoints:
 http:
   routers:
     web-secure-router:
-      rule: 'Host(`122.184.78.196`)'
+      rule: 'Host(`youbrajrai.com.np`)'
       entryPoints:
         - web
       middlewares:
@@ -18,7 +18,7 @@ http:
       service: django
 
     flower-secure-router:
-      rule: 'Host(`122.184.78.196`)'
+      rule: 'Host(`youbrajrai.com.np`)'
       entryPoints:
         - flower
       service: flower
